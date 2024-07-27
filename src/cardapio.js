@@ -8,7 +8,6 @@ import strogonoffImg from './assets/pratos/strogonoff.webp';
 import brownieImg from './assets/sobremesas/brownie.jpeg';
 import cocadaFornoImg from './assets/sobremesas/cocada-forno.jpeg';
 import petitGateauImg from './assets/sobremesas/petit-gateau.jpeg';
-import FrozenYogurtImg from './assets/sobremesas/sorvete.jpg';
 
 import aguaSemGasImg from './assets/bebidas/agua-sem-gas.jpeg';
 import aguaComGasImg from './assets/bebidas/agua-com-gas.jpeg';
@@ -81,13 +80,6 @@ const petitGateau = {
     'Bolo quente recheado com ganache de chocolate, leite condensado e castanha de caju',
 };
 
-const FrozenYogurt = {
-  nome:'Frozen Yogurt',
-  preco:'29,90',
-  imagem: FrozenYogurtImg,
-  descricao: 'natural com cobertura de frutas vermelhas'
-}
-
 const aguaSemGas = {
   nome: 'Água sem gás',
   preco: 'R$ 6,90',
@@ -135,6 +127,6 @@ export const pratosPrincipais = [
   strogonoff,
 ];
 
-export const sobremesas = [brownie, cocadaForno, petitGateau,FrozenYogurt];
+export const sobremesas = [brownie, cocadaForno, petitGateau];
 
 export const bebidas = [aguaSemGas, aguaComGas, cocaCola, guarana, heineken,SucoLaranja];
